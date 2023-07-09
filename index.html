@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Tic Tac Toe</h3>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article class="game-board">
+          <div class="row">
+            <input type="text" id="tile1" class="cell" onclick="myTurn(); game();" readonly />
+            <input type="text" id="tile2" class="cell" onclick="myTurn1(); game();" readonly />
+            <input type="text" id="tile3" class="cell" onclick="myTurn2(); game();" readonly />
+          </div>
+
+          <div class="row">
+            <input type="text" id="tile4" class="cell" onclick="myTurn3(); game();" readonly />
+            <input type="text" id="tile5" class="cell" onclick="myTurn4(); game();" readonly />
+            <input type="text" id="tile6" class="cell" onclick="myTurn5(); game();" readonly />
+          </div>
+          
+          <div class="row">
+            <input type="text" id="tile7" class="cell" onclick="myTurn6(); game();" readonly />
+            <input type="text" id="tile8" class="cell" onclick="myTurn7(); game();" readonly />
+            <input type="text" id="tile9" class="cell" onclick="myTurn8(); game();" readonly />
+          </div>
+
+          <br/><br/><br/><br/>
+
+          <button id="reset" onclick="reset();">Restart</button>
+
+          <br/><br/>
+
+          <p id="winner"></p>
+        </article>
+      </section>
+    </main>
+
+
+
+    <script src="fuction.js"></script>
+  </body>
+</html>
