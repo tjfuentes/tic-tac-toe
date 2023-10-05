@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+  font-family: 'Pixelify Sans', cursive;
+}
+
+body {
+  background: #cfc08b;
+}
 
 
 .game-board {
@@ -20,6 +29,7 @@
   font-size: 24px;
   text-align: center;
   cursor: pointer;
+  background: #353433;
 }
 
 .cell:active {
@@ -29,52 +39,69 @@
 /* Grid */
 
 #tile1 {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 1px solid #d5d5d4;
+  border-right: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile2 {
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid #d5d5d4;
+  border-bottom: 1px solid #d5d5d4;
+  border-right: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile3 {
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 1px solid #d5d5d4;
+  border-bottom: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile4 {
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #d5d5d4;
+  border-right: 1px solid #d5d5d4;
+  border-bottom: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile5 {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 1px solid #d5d5d4;
+  border-right: 1px solid #d5d5d4;
+  border-top: 1px solid #d5d5d4;
+  border-bottom: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile6 {
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 1px solid #d5d5d4;
+  border-top: 1px solid #d5d5d4;
+  border-bottom: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile7 {
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-top: 1px solid #d5d5d4;
+  border-right: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile8 {
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid #d5d5d4;
+  border-top: 1px solid #d5d5d4;
+  border-right: 1px solid #d5d5d4;
+  color: #f8c917;
 }
 
 #tile9 {
-  border-left: 1px solid black;
-  border-top: 1px solid black;
+  border-left: 1px solid #d5d5d4;
+  border-top: 1px solid #d5d5d4;
+  color: #f8c917;
+}
+
+#reset {
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to bottom right, rgba(248, 201, 23, 1),rgba(248, 248, 248, 1),rgba(213, 131, 21, 1));
+  cursor: pointer;
 }

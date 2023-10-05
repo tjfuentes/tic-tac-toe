@@ -34,9 +34,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile1Input.style.color = 'orange';
-  tile2Input.style.color = 'orange';
-  tile3Input.style.color = 'orange';
+  tile1Input.style.color = '#e3303f';
+  tile2Input.style.color = '#e3303f';
+  tile3Input.style.color = '#e3303f';
 
 } else if ((tile1Val === 'x' || tile1Val === 'X') && (tile4Val === 'x' || tile4Val === 'X') && (tile7Val === 'x' || tile7Val === 'X')){
 
@@ -49,9 +49,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile5Input.disabled = true;
   tile6Input.disabled = true;
 
-  tile7Input.style.color = 'orange';
-  tile8Input.style.color = 'orange';
-  tile9Input.style.color = 'orange';
+  tile7Input.style.color = '#e3303f';
+  tile8Input.style.color = '#e3303f';
+  tile9Input.style.color = '#e3303f';
 
 } else if ((tile3Val === 'x' || tile3Val === 'X') && (tile6Val === 'x' || tile6Val === 'X') && (tile9Val === 'x' || tile9Val === 'X')) {
 
@@ -64,9 +64,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile7Input.disabled = true;
   tile8Input.disabled = true;
 
-  tile3Input.style.color = 'orange';
-  tile6Input.style.color = 'orange';
-  tile9Input.style.color = 'orange';
+  tile3Input.style.color = '#e3303f';
+  tile6Input.style.color = '#e3303f';
+  tile9Input.style.color = '#e3303f';
 
 
 } else if ((tile1Val === 'x' || tile1Val === 'X') && (tile5Val === 'x' || tile5Val === 'X') && (tile9Val === 'x' || tile9Val === 'X')) {
@@ -80,9 +80,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile7Input.disabled = true;
   tile8Input.disabled = true;
 
-  tile1Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile9Input.style.color = 'orange';
+  tile1Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile9Input.style.color = '#e3303f';
 
 
 } else if ((tile3Val === 'x' || tile3Val === 'X') && (tile5Val === 'x' || tile5Val === 'X') && (tile7Val === 'x' || tile7Val === 'X')) {
@@ -96,9 +96,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile3Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile7Input.style.color = 'orange';
+  tile3Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile7Input.style.color = '#e3303f';
 
 } else if ((tile2Val === 'x' || tile2Val === 'X') && (tile5Val === 'x' || tile5Val === 'X') && (tile8Val === 'x' || tile8Val === 'X')) {
 
@@ -111,9 +111,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile7Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile2Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile8Input.style.color = 'orange';
+  tile2Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile8Input.style.color = '#e3303f';
 
 } else if ((tile4Val === 'x' || tile4Val === 'X') && (tile5Val === 'x' || tile5Val === 'X') && (tile6Val === 'x' || tile6Val === 'X')) {
 
@@ -126,9 +126,9 @@ if ((tile1Val === 'x' || tile1Val === 'X') && (tile2Val === 'x' || tile2Val === 
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile4Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile6Input.style.color = 'orange';
+  tile4Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile6Input.style.color = '#e3303f';
 
 }
 // Check if player 0 won or not
@@ -143,9 +143,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile1Input.style.color = 'orange';
-  tile2Input.style.color = 'orange';
-  tile3Input.style.color = 'orange';
+  tile1Input.style.color = '#e3303f';
+  tile2Input.style.color = '#e3303f';
+  tile3Input.style.color = '#e3303f';
 
 } else if ((tile1Val === 'o' || tile1Val === 'O') && (tile4Val === 'o' || tile4Val === 'O') && (tile7Val === 'o' || tile7Val === 'O')) {
 
@@ -158,9 +158,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile1Input.style.color = 'orange';
-  tile4Input.style.color = 'orange';
-  tile7Input.style.color = 'orange';
+  tile1Input.style.color = '#e3303f';
+  tile4Input.style.color = '#e3303f';
+  tile7Input.style.color = '#e3303f';
 
 } else if ((tile7Val === 'o' || tile7Val === 'O') && (tile8Val === 'o' || tile8Val === 'O') && (tile9Val === 'o' || tile9Val === 'O')) {
 
@@ -173,9 +173,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile5Input.disabled = true;
   tile6Input.disabled = true;
 
-  tile7Input.style.color = 'orange';
-  tile8Input.style.color = 'orange';
-  tile9Input.style.color = 'orange';
+  tile7Input.style.color = '#e3303f';
+  tile8Input.style.color = '#e3303f';
+  tile9Input.style.color = '#e3303f';
 
 } else if ((tile3Val === 'o' || tile3Val === 'O') && (tile6Val === 'o' || tile6Val === 'O') && (tile9Val === 'o' || tile9Val === 'O')) {
 
@@ -188,9 +188,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile7Input.disabled = true;
   tile8Input.disabled = true;
 
-  tile3Input.style.color = 'orange';
-  tile6Input.style.color = 'orange';
-  tile9Input.style.color = 'orange';
+  tile3Input.style.color = '#e3303f';
+  tile6Input.style.color = '#e3303f';
+  tile9Input.style.color = '#e3303f';
 
 } else if ((tile1Val === 'o' || tile1Val === 'O') && (tile5Val === 'o' || tile5Val === 'O') && (tile9Val === 'o' || tile9Val === 'O')) {
 
@@ -203,9 +203,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile7Input.disabled = true;
   tile8Input.disabled = true;
 
-  tile1Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile9Input.style.color = 'orange';
+  tile1Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile9Input.style.color = '#e3303f';
 
 } else if ((tile3Val === 'o' || tile3Val === 'O') && (tile5Val === 'o' || tile5Val === 'O') && (tile7Val === 'o' || tile7Val === 'O')) {
 
@@ -218,9 +218,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile3Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile7Input.style.color = 'orange';
+  tile3Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile7Input.style.color = '#e3303f';
 
 } else if ((tile2Val === 'o' || tile2Val === 'O') && (tile5Val === 'o' || tile5Val === 'O') && (tile8Val === 'o' || tile8Val === 'O')) {
 
@@ -233,9 +233,9 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile7Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile2Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile8Input.style.color = 'orange';
+  tile2Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile8Input.style.color = '#e3303f';
 
 } else if ((tile4Val === 'o' || tile4Val === 'O') && (tile5Val === 'o' || tile5Val === 'O') && (tile6Val === 'o' || tile6Val === 'O')) {
 
@@ -248,23 +248,23 @@ else if ((tile1Val === 'o' || tile1Val === 'O') && (tile2Val === 'o' || tile2Val
   tile8Input.disabled = true;
   tile9Input.disabled = true;
 
-  tile4Input.style.color = 'orange';
-  tile5Input.style.color = 'orange';
-  tile6Input.style.color = 'orange';
+  tile4Input.style.color = '#e3303f';
+  tile5Input.style.color = '#e3303f';
+  tile6Input.style.color = '#e3303f';
 
 } //check for a tie
 
 else if ((tile1Val === 'X' || tile1Val === 'O') && (tile2Val === 'X' || tile2Val === 'O') && (tile3Val === 'X' || tile3Val === 'O') &&
   (tile4Val === 'X' || tile4Val === 'O') && (tile5Val === 'X' || tile5Val === 'O') && (tile6Val === 'X' || tile6Val === 'O') && 
   (tile7Val === 'X' || tile7Val === 'O') && (tile8Val === 'X' || tile8Val === 'O') && (tile9Val === 'X' || tile9Val === 'O')) {
-    document.getElementById('winner').innerHTML = 'Match Tie';
+    document.getElementById('winner').innerHTML = 'DRAW';
 
   } else {
     //player turn
-    if (turn == 1) {
+    if (turn%2 == 0) {
       document.getElementById('winner').innerHTML = 'Player X turn';
     } else {
-      document.getElementById('winner').innerHTML = 'Plater O turn';
+      document.getElementById('winner').innerHTML = 'Player O turn';
     }
   }
 
@@ -292,6 +292,7 @@ const myTurn = () => {
     turn++;
   } else {
     document.getElementById('tile1').value = 'O';
+    document.getElementById('tile1').style.color = '#37d1cb';
     document.getElementById('tile1').disabled = true;
     turn++;
   }
@@ -304,6 +305,7 @@ const myTurn1 = () => {
     turn++;
   } else {
     document.getElementById('tile2').value = 'O';
+    document.getElementById('tile2').style.color = '#37d1cb';
     document.getElementById('tile2').disabled = true;
     turn++;
   }
@@ -316,6 +318,7 @@ const myTurn2 = () => {
     turn++;
   } else {
     document.getElementById('tile3').value = 'O';
+    document.getElementById('tile3').style.color = '#37d1cb';
     document.getElementById('tile3').disabled = true;
     turn++;
   }
@@ -328,6 +331,7 @@ const myTurn3 = () => {
     turn++;
   } else {
     document.getElementById('tile4').value = 'O';
+    document.getElementById('tile4').style.color = '#37d1cb';
     document.getElementById('tile4').disabled = true;
     turn++;
   }
@@ -340,6 +344,7 @@ const myTurn4 = () => {
     turn++;
   } else {
     document.getElementById('tile5').value = 'O';
+    document.getElementById('tile5').style.color = '#37d1cb';
     document.getElementById('tile5').disabled = true;
     turn++;
   }
@@ -352,6 +357,7 @@ const myTurn5 = () => {
     turn++;
   } else {
     document.getElementById('tile6').value = 'O';
+    document.getElementById('tile6').style.color = '#37d1cb';
     document.getElementById('tile6').disabled = true;
     turn++;
   }
@@ -364,6 +370,7 @@ const myTurn6 = () => {
     turn++;
   } else {
     document.getElementById('tile7').value = 'O';
+    document.getElementById('tile7').style.color = '#37d1cb';
     document.getElementById('tile7').disabled = true;
     turn++;
   }
@@ -376,6 +383,7 @@ const myTurn7 = () => {
     turn++;
   } else {
     document.getElementById('tile8').value = 'O';
+    document.getElementById('tile8').style.color = '#37d1cb';
     document.getElementById('tile8').disabled = true;
     turn++;
   }
@@ -388,6 +396,7 @@ const myTurn8 = () => {
     turn++;
   } else {
     document.getElementById('tile9').value = 'O';
+    document.getElementById('tile9').style.color = '#37d1cb';
     document.getElementById('tile9').disabled = true;
     turn++;
   }
